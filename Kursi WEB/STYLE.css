@@ -1,0 +1,51 @@
+body{
+    background-image: url("https://akket.com/wp-content/uploads/2017/08/Dota-2-Artifact-4.jpg");
+    background-color: whitesmoke;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    color: green;
+}
+button{
+    cursor: pointer;
+}
+
+.current_page a{
+    color: red;
+}
+button.my_button_edit {
+    background-color: aqua;
+    /* background-size: 30px; */
+    padding: 20px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    color: blueviolet;
+}
+
+button.my_button_add {
+    background-color: yellow;
+    border: 1px solid;
+    border-radius: 20px;
+    transition: all 3s ease;
+}
+button.my_button_delete {
+    padding: 10px;
+    background: red;
+    color: white;
+    padding: 10 px;
+}
+button.my_button_edit:hover {
+    padding: 20px;
+    background-color: red;
+}
+button.my_button_add:hover {
+    padding: 20px;
+    background-color: red;
+}
+button.my_button_delete:hover {
+    background-color: blue;
+}
+button.my_button_edit:hover{
+    background-color: cornflowerblue;
+}
