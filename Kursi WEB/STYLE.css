@@ -49,3 +49,71 @@ button.my_button_delete:hover {
 button.my_button_edit:hover{
     background-color: cornflowerblue;
 }
+.flexboxes {
+    height: 300px;
+    width: 100%;
+    border: 1px solid gray;
+    background: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.zagolovok {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+p.creator {
+    color: red;
+    border: 3px solid olivedrab;
+    font-size: 20px;
+    margin: 3px;
+    padding: 3px;
+}
+
+.foto {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+p.name {
+    font-size: 25px;
+    font-style: oblique;
+    margin: 3px;
+    padding: 3px;
+    color: yellow;
+}
+.My.Home.Work {
+    font-size: 80PX;
+    font-family: fantasy;
+    text-align: center;
+    color: lawngreen;
+    text-shadow: 0px -12px 3px rgba(197, 20, 20, 0.82);
+    padding: 30px;
+}
+main {
+    height: 800px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.zagolovok_vidosa {
+    height: 50px;
+    width: 100%;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    color: violet;
+}
+footer {
+    height: 200px;
+    width: 100%;
+    background: red;
+    display: flex;
+}
