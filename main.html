@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+    <link rel="stylesheet" href="STYLE.css"/>
+</head>
+<body>
+
+    <header>
+        <ul class="main-manu">
+            <li><a href="Kursu%20WEB.html">Початкова сторінка</a> </li>
+            <li><a href="Sacond_page.html">Друга сторынка</a> </li>
+            <li><a href="Tablica.html">Третя сторінка</a> </li>
+            <li><a href="example.html">Приклад</a> </li>
+            <li class="current_page"><a href="main.html">Структурна сторінка</a> </li>
+            <li><a href="flexbox.html">FLEX сторінка</a></li>
+        </ul>
+
+
+    </header>
+
+    <main>
+        <aside style="float: right">
+            <iframe src="https://www.youtube.com/embed/qku2WZ7aRYw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="550" height="350">
+            </iframe>
+        </aside>
+
+        <section id="main_info">
+            <nav>
+            <article>
+                <h1>Імя</h1>
+                <p>Василь</p>
+            </article>
+            <article>
+                <h1>Прізвище</h1>
+                <p>Чікінін</p>
+            </article>
+            <article>
+                <h1>По-батькові</h1>
+                <p>Олександрович</p>
+            </article>
+            </nav>
+
+        </section>
+        <section id="main_works">
+
+            <button class="my_button_add">
+                додати
+            </button>
+            <button class="my_button_edit">
+                редагувати
+            </button>
+            <button class="my_button_delete">
+                видалити
+            </button>
+
+
+        </section>
+        <form enctype="multipart/form-data" method="post" action="http://localhost:8080/postfile.php">
+            <p>
+                <input type="file" name="file" multiple />
+            </p>
+            <p>
+                <input type="submit" value="Отправить" />
+            </p>
+        </form>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>

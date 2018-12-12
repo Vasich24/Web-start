@@ -1,0 +1,161 @@
+body{
+    background-image: url("https://akket.com/wp-content/uploads/2017/08/Dota-2-Artifact-4.jpg");
+    background-color: whitesmoke;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    color: green;
+}
+button{
+    cursor: pointer;
+}
+
+.current_page a{
+    color: red;
+}
+button.my_button_edit {
+    background-color: aqua;
+    padding: 20px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    color: blueviolet;
+}
+
+button.my_button_add {
+    background-color: yellow;
+    border: 1px solid;
+    border-radius: 20px;
+    transition: all 3s ease;
+}
+button.my_button_delete {
+    padding: 10px;
+    background: red;
+    color: white;
+}
+button.my_button_edit:hover {
+    padding: 20px;
+    background-color: red;
+}
+button.my_button_add:hover {
+    padding: 20px;
+    background-color: red;
+}
+button.my_button_delete:hover {
+    background-color: blue;
+}
+button.my_button_edit:hover{
+    background-color: cornflowerblue;
+}
+.flexboxes {
+    height: 300px;
+    width: 100%;
+    border: 1px solid gray;
+    background: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.zagolovok {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+p.creator {
+    color: red;
+    border: 3px solid olivedrab;
+    font-size: 20px;
+    margin: 3px;
+    padding: 3px;
+}
+
+.foto {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+p.name {
+    font-size: 25px;
+    font-style: oblique;
+    margin: 3px;
+    padding: 3px;
+    color: yellow;
+}
+.My.Home.Work {
+    font-size: 80PX;
+    font-family: fantasy;
+    text-align: center;
+    color: lawngreen;
+    text-shadow: 0px -12px 3px rgba(197, 20, 20, 0.82);
+    padding: 30px;
+}
+main {
+    height: 800px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.manu{
+    background: black;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
+.zagolovok_vidosa {
+    height: 50px;
+    width: 100%;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    color: violet;
+}
+footer {
+    height: 200px;
+    width: 100%;
+    background: red;
+    display: flex;
+}
+.one-flex {
+    width: 50px;
+    margin: 2px;
+    padding: 10px;
+    background: green;
+    height: 50px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.main-manu {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style: none;
+}
+
+ul.main-manu li {
+    background: black;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+@media screen and (max-width: 450px){
+    ul.main-manu {
+        display: flex;
+        flex-direction: column;
+    }
+}
+a {
+    text-decoration: none;
+    color: white;
+
+}
