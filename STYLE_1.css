@@ -122,7 +122,7 @@ body {
     justify-content: center;
     background-color: #00212f;
     color: white;
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .privet {
@@ -144,12 +144,16 @@ body {
 .opisanie-contenta {
     display: flex;
     flex-direction: row;
-    padding: 15px 0;
+    padding: 15px 100px;
+    box-sizing: border-box;
+    height: 375px;
+
 }
 
 .opisanie-1 {
     display: flex;
     flex-direction: column;
+    padding: 0 20px;
 }
 
 .opis-1-1 {
@@ -157,6 +161,59 @@ body {
     font-weight: bolder;
     padding: 10px 0;
 }
+.opisanie-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+}
 
-.opis-1-2 {
+.opis-2-1 {
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px 0;
+}
+.opisanie-3 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.opis-3-1 {
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px 0;
+}
+.logo-2 {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    background: #b1deda0f;
+}
+
+.logo-bot {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bot-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10%;
+    padding: 40px 300px;
+}
+.lago-nadpis {
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    align-items: center;
+    font-weight: bolder;
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 450px) {
+
 }
