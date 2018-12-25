@@ -1,0 +1,329 @@
+.wizard-block {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    background-image: url("pexels-photo-374899.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+body {
+    margin: 0 0;
+}
+
+.main-menu {
+    display: flex;
+    height: 200px;
+    width: 100%;
+}
+
+.main-menu-logo {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+.main-menu-button {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 30px;
+    text-align: center;
+    flex-direction: row;
+}
+
+.menu-button {
+    display: flex;
+    width: calc(100%/7);
+    font-weight: bolder;
+    align-items: center;
+    padding: 0px 0px 30px 22px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all.3s ease;
+}
+
+i.fa.fa-users {
+    padding: 0 5px;
+}
+
+.wizard-slogan-1 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+    height: 290px;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.wizard-slogan-2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 95px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wizzard-button {
+    display: flex;
+    height: 100px;
+    width: 33%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-wizard-button {
+    display: flex;
+}
+
+.right-wizard-button {
+    display: flex;
+}
+i.fa.fa-sign-in {
+    padding: 0 5px;
+}
+.wizard-block {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    background-image: url("pexels-photo-374899.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+body {
+    margin: 0 0;
+}
+
+.main-menu {
+    display: flex;
+    height: 200px;
+    width: 100%;
+}
+
+.main-menu-logo {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+.main-menu-button {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 30px;
+    text-align: center;
+    flex-direction: row;
+}
+
+.menu-button {
+    display: flex;
+    width: calc(100%/7);
+    font-weight: bolder;
+    align-items: center;
+    padding: 0px 0px 30px 22px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all.3s ease;
+}
+
+i.fa.fa-users {
+    padding: 0 5px;
+}
+
+.wizard-slogan-1 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+    height: 290px;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.wizard-slogan-2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 95px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wizzard-button {
+    display: flex;
+    height: 100px;
+    width: 33%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-wizard-button {
+    display: flex;
+}
+
+.right-wizard-button {
+    display: flex;
+    border: 3px solid;
+    color: white;
+    font-weight: 600;
+    height: 45px;
+    width: 180px;
+    align-items: center;
+    justify-content: center;
+}
+i.fa.fa-sign-in {
+    padding: 0 5px;
+}
+.wizard-block {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    background-image: url("pexels-photo-374899.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+body {
+    margin: 0 0;
+}
+
+.main-menu {
+    display: flex;
+    height: 200px;
+    width: 100%;
+}
+
+.main-menu-logo {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+.main-menu-button {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 30px;
+    text-align: center;
+    flex-direction: row;
+}
+
+.menu-button {
+    display: flex;
+    width: calc(100%/7);
+    font-weight: bolder;
+    align-items: center;
+    padding: 0px 0px 30px 22px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all.5s ease;
+}
+.menu-button:hover{
+    color: #7f7f7f;
+}
+i.fa.fa-users {
+    padding: 0 5px;
+}
+
+.wizard-slogan-1 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+    height: 290px;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.wizard-slogan-2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 95px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wizzard-button {
+    display: flex;
+    height: 100px;
+    width: 34%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-wizard-button {
+    display: flex;
+    border: 3px solid;
+    color: white;
+    font-weight: 600;
+    height: 45px;
+    width: 185px;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.button-1 {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.button-2 {
+    text-decoration: none;
+    color: #555;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.right-wizard-button {
+    display: flex;
+    border: 3px solid;
+    color: white;
+    font-weight: 600;
+    height: 45px;
+    width: 185px;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    background: white;
+}
+i.fa.fa-sign-in {
+    padding: 0 5px;
+}
+
+

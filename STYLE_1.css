@@ -2,6 +2,8 @@ header {
     display: flex;
     background-color: #002230;
     color: white;
+    position: sticky;
+    top: 0;
 }
 
 .left-side {display: flex;width: 75%;}
@@ -50,10 +52,6 @@ header {
 body {
     margin: 0;
     padding: 0;
-}
-
-.one-manu-item:hover {
-    background: rgba(225.225.225.0.1);
 }
 
 .one-manu-item:hover {
