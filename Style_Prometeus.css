@@ -19,23 +19,6 @@ body {
     width: 100%;
 }
 
-.main-menu-logo {
-    display: flex;
-    width: 40%;
-    align-items: center;
-    justify-content: center;
-}
-.main-menu-button {
-    display: flex;
-    width: 50%;
-    justify-content: flex-start;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 0 30px;
-    text-align: center;
-    flex-direction: row;
-}
-
 .menu-button {
     display: flex;
     width: calc(100%/7);
@@ -74,7 +57,6 @@ i.fa.fa-users {
     text-transform: uppercase;
     text-align: center;
 }
-
 .wizzard-button {
     display: flex;
     height: 100px;
@@ -83,141 +65,12 @@ i.fa.fa-users {
     align-items: center;
     justify-content: space-between;
 }
-
-.left-wizard-button {
-    display: flex;
-}
-
-.right-wizard-button {
-    display: flex;
-}
 i.fa.fa-sign-in {
     padding: 0 5px;
 }
-.wizard-block {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    align-items: center;
-    background-image: url("pexels-photo-374899.jpeg");
-    background-position: center;
-    background-size: cover;
-    height: 800px;
-}
-
-body {
-    margin: 0 0;
-}
-
-.main-menu {
-    display: flex;
-    height: 200px;
-    width: 100%;
-}
-
-.main-menu-logo {
-    display: flex;
-    width: 40%;
-    align-items: center;
-    justify-content: center;
-}
-.main-menu-button {
-    display: flex;
-    width: 50%;
-    justify-content: flex-start;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 0 30px;
-    text-align: center;
-    flex-direction: row;
-}
-
-.menu-button {
-    display: flex;
-    width: calc(100%/7);
-    font-weight: bolder;
-    align-items: center;
-    padding: 0px 0px 30px 22px;
-    cursor: pointer;
-    white-space: nowrap;
-    transition: all.3s ease;
-}
-
 i.fa.fa-users {
     padding: 0 5px;
 }
-
-.wizard-slogan-1 {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    width: 100%;
-    height: 290px;
-    font-size: 50px;
-    letter-spacing: 5px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.wizard-slogan-2 {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 95px;
-    font-size: 25px;
-    letter-spacing: 5px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.wizzard-button {
-    display: flex;
-    height: 100px;
-    width: 33%;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.left-wizard-button {
-    display: flex;
-}
-
-.right-wizard-button {
-    display: flex;
-    border: 3px solid;
-    color: white;
-    font-weight: 600;
-    height: 45px;
-    width: 180px;
-    align-items: center;
-    justify-content: center;
-}
-i.fa.fa-sign-in {
-    padding: 0 5px;
-}
-.wizard-block {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    align-items: center;
-    background-image: url("pexels-photo-374899.jpeg");
-    background-position: center;
-    background-size: cover;
-    height: 800px;
-}
-
-body {
-    margin: 0 0;
-}
-
-.main-menu {
-    display: flex;
-    height: 200px;
-    width: 100%;
-}
-
 .main-menu-logo {
     display: flex;
     width: 40%;
@@ -233,49 +86,10 @@ body {
     padding: 0 30px;
     text-align: center;
     flex-direction: row;
-}
-
-.menu-button {
-    display: flex;
-    width: calc(100%/7);
-    font-weight: bolder;
-    align-items: center;
-    padding: 0px 0px 30px 22px;
-    cursor: pointer;
-    white-space: nowrap;
-    transition: all.5s ease;
 }
 .menu-button:hover{
     color: #7f7f7f;
 }
-i.fa.fa-users {
-    padding: 0 5px;
-}
-
-.wizard-slogan-1 {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    width: 100%;
-    height: 290px;
-    font-size: 50px;
-    letter-spacing: 5px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.wizard-slogan-2 {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 95px;
-    font-size: 25px;
-    letter-spacing: 5px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-}
-
 .wizzard-button {
     display: flex;
     height: 100px;
@@ -325,5 +139,58 @@ i.fa.fa-users {
 i.fa.fa-sign-in {
     padding: 0 5px;
 }
+.header-name {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    flex-direction: column;
+}
+.how_it_works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 850px;
+    background: whitesmoke;
+}
+.polosa-1 {
+    display: flex;
+    height: 20px;
+    width: 70px;
+    border-bottom: 2px solid;
+}
+.blok-content-1 {
+    display: flex;
+    height: 280px;
+    width: 70%;
+}
 
+.logo-contenta-1 {
+    height: 200px;
+    width: 200px;
+    border: 7px solid white;
+    border-radius: 50%;
+}
+.right-block-content-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    justify-content: center;
+}
 
+.opis-1-1 {
+    height: 40px;
+    font-size: 20px;
+}
+
+.opis1-2 {
+    font-size: 17px;
+}
+.opisanie-contenta-1 {
+    height: 80%;
+}
+.left-block-content-1 {
+    margin-right: 20px;
+}
