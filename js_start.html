@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS_START</title>
+    <link rel="stylesheet"  href="jquery">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="js_start_style.css">
+</head>
+<body>
+    <div class="my_animation">
+        <div class="js-btn" id="exampleBtn">Кнопка</div>
+        <input type="text" id="need_color" placeholder="Введіть бажаний колір" value="yellow">
+        <input type="submit" value="Змінити колір" class="js-btn" onclick="showPreview()">
+
+    </div>
+    <div class="my_anima animated" id="second_container">
+        <h1> Are you hungry?</h1>
+    </div>
+
+    <div class="first_container animated non-visible my_super_anima" id="anima_block">
+        <h1> Time to order 1 BIG Piazza for me))</h1>
+    </div>
+    <div class="third_container my_super_anima">
+        <h1> Thanks!</h1>
+    </div>
+    <script type="text/javascript" src="jquery/jquery-3.3.1.js"></script>
+
+
+    <script>
+        function showPreview(){
+            var buttonExample = document.getElementById('exampleBtn');
+
+            var needColorInput = document.getElementById('need_color');
+
+            var needColor = needColorInput.value;
+
+            buttonExample.style.backgroundColor = needColor;
+        }
+        
+        $(function () {
+            var block = $('#second_container');
+            block.addClass('animated').addClass('flash');
+
+        })
+
+        console.log($('.my_super_anima'));
+
+        var scrollTopDocument = 0;
+        var need_anima = $('#anima_block');
+        $(window).scroll(function () {
+            scrollTopDocument = $ (this).scrollTop()
+                if (scrollTopDocument + $(this).height()-200 >= need_anima.offset().top) {
+                    need_anima.addClass('fadeInLeft');
+                }
+                else {
+                    need_anima.removeClass('fadeInLeft');
+                }
+                if (scrollTopDocument >= need_anima.offset().top + need_anima.height()-200) {
+                    need_anima.removeClass('fadeInLeft').addClass('fadeOutRight')
+                }
+        })
+    </script>
+
+</body>
+</html>
