@@ -5,11 +5,12 @@
     <title>Prometeus_page</title>
     <link rel="stylesheet" href="Style_Prometeus.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="animate.css">
 
 </head>
 <body>
         <header>
-            <div class="wizard-block">
+            <div class="wizard-block animated fadeIn">
                 <div class="main-menu">
                     <div class="main-menu-logo">
                         <a href="Prometeus_title.html">
@@ -42,17 +43,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="wizard-slogan-1">
+                <div class="wizard-slogan-1 onload-func non-visible">
                     Найкраща освіта для кожного
                 </div>
-                <div class="wizard-slogan-2">
+                <div class="wizard-slogan-2 onload-func non-visible" >
                     Безкоштовні онлайн-курси від викладачів КНУ,КПІ та Києво-Могилянської академії
                 </div>
                 <div class="wizzard-button">
-                    <div class="left-wizard-button">
+                    <div class="left-wizard-button onload-func non-visible">
                         <a class="button-1" href="flex_study.html">Дізнатися більше</a>
                     </div>
-                    <div class="right-wizard-button">
+                    <div class="right-wizard-button onload-func non-visible">
                         <a class="button-2" href="example.html">Почати навчання</a>
                     </div>
                 </div>
@@ -69,7 +70,7 @@
                 </div>
                 <div class="blok-content-1">
                     <div class="left-block-content-1">
-                        <div class="logo-lekcii">
+                        <div class="logo-lekcii animated anima_block non-visible">
                             <img class="logo-contenta-1" src="service-hp-img-1.png">
                         </div>
                     </div>
@@ -84,7 +85,7 @@
                         </div>
                     </div>
                     <div class="left-block-content-1">
-                        <div class="logo-lekcii">
+                        <div class="logo-lekcii animated anima_block non-visible">
                             <img class="logo-contenta-1" src="service-hp-img-3.png">
                         </div>
                     </div>
@@ -102,7 +103,7 @@
 
                 <div class="blok-content-1">
                     <div class="left-block-content-1">
-                        <div class="logo-lekcii">
+                        <div class="logo-lekcii animated anima_block non-visible">
                             <img class="logo-contenta-1" src="service-hp-img-2.png">
                         </div>
                     </div>
@@ -117,7 +118,7 @@
                         </div>
                     </div>
                     <div class="left-block-content-1">
-                        <div class="logo-lekcii">
+                        <div class="logo-lekcii animated anima_block non-visible">
                             <img class="logo-contenta-1" src="logo-idverified.png">
                         </div>
                     </div>
@@ -135,6 +136,37 @@
                 </div>
             </div>
         </main>
+        <script type="text/javascript" src="jquery/jquery-3.3.1.js"></script>
+        <script>
+            // добавляєм анімацію стартової сторінки
+            $(function () {
+                var animatedBlocks;
+                var myInterval;
+                myInterval=setInterval(function () {
+                    animatedBlocks = $('.onload-func');
+                    if (animatedBlocks.length==0){
+                        clearInterval(myInterval);
+                    }
+                    animatedBlocks.first().addClass('animated').addClass('zoomIn').removeClass('onload-func').removeClass('non-visible');
+                    console.log(animatedBlocks);
+                },1000);
+
+
+            });
+            // добавляєм функцію зі скролом
+                var  scrollTopDocument = 0;
+                var  animaSlideTop = $('.anima_block');
+                $(window).scroll(function () {
+                    scrollTopDocument = $(this).scrollTop();
+                    if (scrollTopDocument+$(this).height()-200>=animaSlideTop.offset().top){
+                        animaSlideTop.addClass('fadeInUp');
+
+
+                    }
+
+                })
+
+        </script>
 
 </body>
 </html>
