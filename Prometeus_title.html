@@ -70,8 +70,8 @@
                 </div>
                 <div class="blok-content-1">
                     <div class="left-block-content-1">
-                        <div class="logo-lekcii animated anima_block non-visible">
-                            <img class="logo-contenta-1" src="service-hp-img-1.png">
+                        <div class="logo-lekcii">
+                            <img class="logo-contenta-1 animated scroll-onload-func anima_block non-visible" src="service-hp-img-1.png">
                         </div>
                     </div>
                     <div class="right-block-content-1">
@@ -85,8 +85,8 @@
                         </div>
                     </div>
                     <div class="left-block-content-1">
-                        <div class="logo-lekcii animated anima_block non-visible">
-                            <img class="logo-contenta-1" src="service-hp-img-3.png">
+                        <div class="logo-lekcii">
+                            <img class="logo-contenta-1 animated scroll-onload-func anima_block non-visible" src="service-hp-img-3.png">
                         </div>
                     </div>
                     <div class="right-block-content-1">
@@ -103,8 +103,8 @@
 
                 <div class="blok-content-1">
                     <div class="left-block-content-1">
-                        <div class="logo-lekcii animated anima_block non-visible">
-                            <img class="logo-contenta-1" src="service-hp-img-2.png">
+                        <div class="logo-lekcii ">
+                            <img class="logo-contenta-1 animated scroll-onload-func anima_block non-visible" src="service-hp-img-2.png">
                         </div>
                     </div>
                     <div class="right-block-content-1">
@@ -118,8 +118,8 @@
                         </div>
                     </div>
                     <div class="left-block-content-1">
-                        <div class="logo-lekcii animated anima_block non-visible">
-                            <img class="logo-contenta-1" src="logo-idverified.png">
+                        <div class="logo-lekcii ">
+                            <img class="logo-contenta-1 animated scroll-onload-func anima_block non-visible" src="logo-idverified.png">
                         </div>
                     </div>
                     <div class="right-block-content-1">
@@ -154,17 +154,31 @@
 
             });
             // добавляєм функцію зі скролом
-                var  scrollTopDocument = 0;
-                var  animaSlideTop = $('.anima_block');
+
+                var scrollTopDocument = 0;
+                var animaSlideTop = $('.anima_block');
                 $(window).scroll(function () {
                     scrollTopDocument = $(this).scrollTop();
-                    if (scrollTopDocument+$(this).height()-200>=animaSlideTop.offset().top){
-                        animaSlideTop.addClass('fadeInUp');
+                    if (scrollTopDocument + $(this).height() - 200 >= animaSlideTop.offset().top) {
+                        // animaSlideTop.addClass('fadeInUp');
+                        animaSlideTop=$(function () {
+                            var animatedBlocks;
+                            var myInterval;
+                            myInterval = setInterval(function () {
+                                animatedBlocks = $('.scroll-onload-func');
+                                if (animatedBlocks.length == 0) {
+                                    clearInterval(myInterval);
+                                }
+                                animatedBlocks.first().addClass('animated').addClass('fadeInUp').removeClass('scroll-onload-func').removeClass('non-visible');
+                                console.log(animatedBlocks);
 
+                            }, 300);
+
+
+                        });
 
                     }
-
-                })
+                });
 
         </script>
 
