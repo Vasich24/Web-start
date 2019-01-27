@@ -11,6 +11,7 @@
 
 body {
     margin: 0 0;
+
 }
 
 .main-menu {
@@ -250,4 +251,85 @@ i.fa.fa-sign-in {
     font-size: 18px;
     line-height: 37px;
     text-align: center;
+}
+/* proba */
+.block-kursa {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 400px;
+    padding: 0 100px;
+    box-sizing: border-box;
+}
+
+.picture-kursa {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.block-kursa-opis {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+img {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+/* proba*/
+a.kurs-zagolovok {
+    text-decoration: none;
+    color: #969698;
+    font-size: 30px;
+    transition: all 0.4s ease;
+}
+a.kurs-zagolovok:hover{
+    color: orangered;
+}
+.polosa-2 {
+    border-bottom: 1.5px solid;
+    width: 60px;
+    height: 20px;
+}
+
+.opis-kursa {
+    font-size: 20px;
+    color: #808080;
+    word-spacing: 8px;
+    line-height: 1.5;
+    margin: 30px 0;
+}
+
+.kurs-button {
+    background: #f3f3f3;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-bottom: 3px solid #e6e6e6;
+}
+
+a.kurs-button-opis {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    color: #969696;
+    text-decoration: none;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bolder;
+    letter-spacing: 1px;
 }
