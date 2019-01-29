@@ -117,12 +117,22 @@ i.fa.fa-users {
     color: white;
     font-size: 13px;
     letter-spacing: 1px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 .button-2 {
     text-decoration: none;
     color: #555;
     font-size: 13px;
     letter-spacing: 1px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .right-wizard-button {
