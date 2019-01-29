@@ -188,9 +188,12 @@ i.fa.fa-sign-in {
 
 .opis1-2 {
     font-size: 17px;
+    letter-spacing: 0.5px;
 }
 .opisanie-contenta-1 {
     height: 80%;
+    color: #454545;
+    line-height: 1.6;
 }
 .left-block-content-1 {
     margin-right: 20px;
@@ -255,11 +258,10 @@ i.fa.fa-sign-in {
 /* proba */
 .block-kursa {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    height: 400px;
-    padding: 0 100px;
+    padding: 30px 100px;
     box-sizing: border-box;
 }
 
@@ -282,14 +284,14 @@ i.fa.fa-sign-in {
 
 img {
     box-sizing: border-box;
-    width: 100%;
-    height: 100%;
+    width: inherit;
+    height: auto;
 }
 /* proba*/
 a.kurs-zagolovok {
     text-decoration: none;
     color: #969698;
-    font-size: 30px;
+    font-size: 28px;
     transition: all 0.4s ease;
 }
 a.kurs-zagolovok:hover{
@@ -302,7 +304,7 @@ a.kurs-zagolovok:hover{
 }
 
 .opis-kursa {
-    font-size: 20px;
+    font-size: 18px;
     color: #808080;
     word-spacing: 8px;
     line-height: 1.5;
@@ -333,3 +335,89 @@ a.kurs-button-opis {
     font-weight: bolder;
     letter-spacing: 1px;
 }
+/* style footer start */
+footer.footer-style {
+    background: #262626;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    padding: 40px 0;
+    width: 90%;
+}
+
+.bot-copyright {
+    color: #828282;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: black;
+    box-sizing: border-box;
+    padding: 0 60px;
+    font-size: 20px;
+    border-top: 1.2px solid #363636;
+}
+
+.about {margin-left: 35px;
+    width: calc(100%/4);
+}
+
+.about-head {
+    color: #dddddd;
+    margin-bottom: 35px;
+    font-size: 18px;
+}
+
+.about-text {
+    line-height: 1.7;
+    font-size: 18px;
+    color: #BFBFC0;
+}
+
+.linl-logo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+a.link-logo-style {
+    width: 63px;
+    height: 63px;
+    margin: 12px;
+}
+img.store-logo {
+    width: 65%;
+}
+a.link-proposition-style {
+    text-decoration: none;
+    color: #7f7f7f;
+    transition: all 0.2s ease;
+}
+
+a.link-proposition-style:hover {
+    color: #BFBFC0;
+}
+a.tag-link {
+    color: white;
+    text-decoration: none;
+    background-color: #e36d3a;
+    font-size: 11px;
+    padding: 5px 10px;
+    margin-top: 7px;
+    margin-right: 7px;
+    float: left;
+    font-weight: bold;
+    transition: all 0.2s ease ;
+}
+a.tag-link:hover {
+    background-color: #e36d399e;
+}
+/* style footer end */
