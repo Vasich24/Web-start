@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="light_gallary/lightGallery-master/lightGallery-master/dist/css/lightgallery.min.css">
+</head>
+<body>
+    <h1>Images</h1>
+        <div id="lightgallery">
+            <a href="facebook-icon.png">
+                <img src="facebook-icon.png" alt="" width="300px" height="300px">
+            </a>
+            <a href="twitter-icon.png">
+                <img src="twitter-icon.png" alt="" width="300px" height="300px">
+            </a>
+            <a href="telegram-icon.png">
+                <img src="telegram-icon.png" alt="" width="300px" height="300px">
+            </a>
+        </div>
+    <script type="text/javascript" src="jquery/jquery-3.3.1.js"></script>
+    <script src="light_gallary/lightGallery-master/lightGallery-master/dist/js/lightgallery.min.js"></script>
+    <script src="light_gallary/lg-video-master/lg-video-master/dist/lg-video.min.js"></script>
+    <script src="light_gallary/lg-thumbnail-master/lg-thumbnail-master/dist/lg-thumbnail.min.js"></script>
+    <script src="light_gallary/lg-fullscreen-master/lg-fullscreen-master/dist/lg-fullscreen.min.js"></script>
+    <script>
+        $ (document).ready(function () {
+            $("#lightgallery").lightGallery();
+        })
+    </script>
+
+</body>
+</html>
