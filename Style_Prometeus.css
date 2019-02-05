@@ -345,6 +345,17 @@ a.kurs-button-opis {
     font-weight: bolder;
     letter-spacing: 1px;
 }
+img.gallery_image_style {
+    height: 215Px;
+    padding: 3px;
+}
+
+.Gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
 /* style footer start */
 footer.footer-style {
     background: #262626;

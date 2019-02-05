@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="Style_Prometeus.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="light_gallary/lightGallery-master/lightGallery-master/dist/css/lightgallery.min.css">
 
 </head>
 <body>
@@ -301,7 +302,7 @@
                     </div>
                 </div>
                 <div class="picture-kursa">
-                    <img src="https://courses.prometheus.org.ua/asset-v1:CZ+MEDIA102+2018_T3+type@asset+block@mediaeducation_magda.png">
+                    <img src="mediaeducation.png">
 
                 </div>
                 <div class="block-kursa-opis">
@@ -338,7 +339,7 @@
                     </div>
                 </div>
                 <div class="picture-kursa">
-                    <img src="https://prometheus.org.ua/wp-content/uploads/2014/05/edx2.jpeg">
+                    <img src="CS50.jpeg">
 
                 </div>
                 <div class="block-kursa-opis">
@@ -358,7 +359,7 @@
             </div>
             <div class="block-kursa">
                 <div class="picture-kursa">
-                    <img src="https://courses.prometheus.org.ua/asset-v1:NADS+GHR101+2018_T3+type@asset+block@331507-P9Y036-70__1_.png">
+                    <img src="personal_navigation.png">
 
                 </div>
                 <div class="block-kursa-opis">
@@ -470,6 +471,36 @@
                 </div>
 
             </div>
+            <div class="header-name">
+                Наша Команда
+            </div>
+            <div class="block-kursa">
+                <div class="Gallery" id="lightgallery">
+                    <a href="Illon%20mask.jpg">
+                        <img class="gallery_image_style" src="Illon%20mask.jpg" alt="Admin(Team lead)" >
+                    </a>
+                    <a href="Mal4ishnik.jpg">
+                        <img class="gallery_image_style" src="Mal4ishnik.jpg" alt="HR-manager" >
+                    </a>
+                    <a href="Piter_Parker.jpg">
+                        <img class="gallery_image_style" src="Piter_Parker.jpg" alt="Mem-searcher" >
+                    </a>
+                    <a href="Tom_Kruz.jpg">
+                        <img class="gallery_image_style" src="Tom_Kruz.jpg" alt="Joke-creator" >
+                    </a>
+                    <a href="Yao_Min.jpg">
+                        <img class="gallery_image_style" src="Yao_Min.jpg" alt="Designer" >
+                    </a>
+                    <a href="Ustal.jpg">
+                        <img class="gallery_image_style" src="Ustal.jpg" alt="HTML Coder" >
+                    </a>
+                    <a href="Sashka_Grey.jpg">
+                        <img class="gallery_image_style" src="Sashka_Grey.jpg" alt="Support ♡(❍ᴥ❍ʋ)" >
+                    </a>
+
+                </div>
+            </div>
+
 
         </main>
         <footer class="footer-style">
@@ -547,6 +578,11 @@
         </footer>
 
         <script type="text/javascript" src="jquery/jquery-3.3.1.js"></script>
+        <script src="light_gallary/lightGallery-master/lightGallery-master/dist/js/lightgallery.min.js"></script>
+        <script src="light_gallary/lg-video-master/lg-video-master/dist/lg-video.min.js"></script>
+        <script src="light_gallary/lg-thumbnail-master/lg-thumbnail-master/dist/lg-thumbnail.min.js"></script>
+        <script src="light_gallary/lg-fullscreen-master/lg-fullscreen-master/dist/lg-fullscreen.min.js"></script>
+
         <script>
             // добавляєм анімацію стартової сторінки
             $(function () {
@@ -589,8 +625,15 @@
 
                     }
                 });
+                // light Gallery function
+            $ (document).ready(function () {
+                $("#lightgallery").lightGallery();
+            })
+
+
 
         </script>
+
 
 </body>
 </html>
