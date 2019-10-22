@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ану ка перетащі!</title>
+</head>
+<body>
+    <div style="height: 250px; width: 250px; background:red; position: absolute" onmousedown="move(this)">
+
+    </div>
+<script type="text/javascript">
+    function move(div) {
+        document.onmousedown=function () {return false}
+        div.style.cursor='move';
+        document.onmousemove=function (e) {
+            x=e.pageX;
+            y=e.pageY;
+            left1=div.offsetLeft;
+            top1=div.offsetTop;
+            left1=x-left1;
+            top1=y-top1;
+            document.onmousemove=function(e){
+                x=e.pageX;
+                y=e.pageY;
+                div.style.top=y-top1+'px';
+                div.style.left=x-left1+'px';
+            }
+        }
+        document.onmouseup=function(){
+            div.style.cursor='auto';
+            document.onmousedown=function(){}
+            document.onmousemove=function(){}
+        }
+    }
+</script>
+
+</body>
+</html>
